@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-family: 'Poppins', sans-serif;
-}
 main {
     height: 100vh;
     width: 100%;
@@ -12,47 +5,6 @@ main {
     justify-content: center;
     align-items: center;
     background-image: url(https://zmeseret.files.wordpress.com/2015/07/harry-potter-and-the-prisoner-of-azkaban-harry-potter-17188607-1920-800.jpg);    
-}
-
-.navbar {
-    height: 60px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: white;
-    background-color: rgb(26, 17, 20);
-}
-
-.navbar-ul-general {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-}
-
-.navbar-list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.items-nav {
-    margin-left: 50px;
-    font-weight: lighter;
-}
-
-.items-nav a {
-    text-decoration: none;
-    color: lightgray;
-}
-
-.items-nav:hover {
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
 }
 
 .container{
@@ -111,26 +63,4 @@ main {
     font-weight: bold;
     font-size: 1.1rem;
     margin: 10px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: lightgray;
-    background-color: rgb(26, 17, 20);
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.footer p {
-    font-size: 1.4rem;
-    margin-right: 50px;
-}
-
-.footer ul {
-    list-style: none;
 }
