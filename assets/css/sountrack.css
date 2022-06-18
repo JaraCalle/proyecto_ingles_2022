@@ -10,7 +10,7 @@ main {
 .container{
     width: 600px;
     height: 80vh;
-    margin: 2rem auto;
+    margin: 2rem auto auto 5rem;
     padding: 30px 50px;
     display: flex;
     flex-direction: column;
