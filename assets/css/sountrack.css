@@ -4,26 +4,52 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://zmeseret.files.wordpress.com/2015/07/harry-potter-and-the-prisoner-of-azkaban-harry-potter-17188607-1920-800.jpg);    
+    background-image: url(https://zmeseret.files.wordpress.com/2015/07/harry-potter-and-the-prisoner-of-azkaban-harry-potter-17188607-1920-800.jpg);
+}
+
+.listado-canciones{
+    margin-right: 1.2rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    grid-area: list1;
+}
+.listado-canciones2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    grid-area: list2;
+}
+
+.container-volumen {
+    grid-area: volumen;
+    text-align: center;
+}
+
+.container-volumen p {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px;
 }
 
 .container{
-    width: 600px;
-    height: 80vh;
-    margin: 2rem auto auto 5rem;
+    width: 50%;
     padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "list1 list2"
+        "volumen volumen";
+    gap: 15px 5%;
+    
     background-color: rgb(26, 17, 20, 0.8);
     border-radius: 25px;
     box-shadow: 8px 8px 8px 8px rgb(26, 17, 20);
 }
-.listado-canciones{
-    width: 100%;
-    font-weight: bold;
-    font-size: 1.1rem;
-}
+
 .cancion{
     padding: 1rem 0rem;
     display: flex;
@@ -48,19 +74,4 @@ main {
 .stop {
     display: flex;
     justify-content: center;
-}
-
-.container-volumen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.container-volumen p {
-    color: lightgray;
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin: 10px;
 }
