@@ -1,0 +1,14 @@
+main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://zmeseret.files.wordpress.com/2015/07/harry-potter-and-the-prisoner-of-azkaban-harry-potter-17188607-1920-800.jpg);    
+}
+
+.body-map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
