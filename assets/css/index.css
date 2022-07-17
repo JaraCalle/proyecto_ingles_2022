@@ -67,3 +67,19 @@ main {
 .post-6 {
     margin-bottom: 30px;
 }
+
+.introduccion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduccion-container article {
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    width: 800px;
+    background-color: rgb(26, 17, 20);
+    color: lightgray;
+    text-align: center;
+    border-radius: 20px;
+}
